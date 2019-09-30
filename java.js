@@ -1,0 +1,10 @@
+document.write("1." + typeof(true) + "<br>");
+document.write("2." + typeof(false) + "<br>");
+document.write("3." + typeof("523") + "<br>");
+document.write("4." + typeof(523) + "<br>");
+document.write("5." + typeof(null) + "<br>");
+document.write("6." + typeof(window) + "<br>");
+document.write("7." + typeof(document.write) + "<br>");
+document.write("8." + typeof(true) + "<br>");
+document.write("9." + typeof(true) + "<br>");
+document.write("10." + typeof(true) + "<br>");

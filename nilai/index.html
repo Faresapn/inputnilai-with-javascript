@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Kalkulator Sederhana</title>
+</head>
+
+<body>
+    <script language="JavaScript" type="text/javascript">
+        function hitung() {
+
+            var myForm = document.form1;
+            var a = String(myForm.a.value);
+            var x = eval(myForm.x.value);
+            var y = eval(myForm.y.value);
+
+            var z = ((30 / 100 * x) + (70 / 100 * y)) / 2
+            myForm.hasil.value = "nilai adalah " + a + " adalah = " + z;
+            print.a.value = "";
+            myForm.x.value = "";
+            myForm.y.value = "";
+
+
+        }
+    </script>
+
+    <form name="form1" action="#">
+        <p>Nama Siswa <input id="nama" type="text" name="a" /></p>
+        <p>Nilai Teori <input type="text" name="x" /></p>
+        <p>Nilai Praktik <input type="text" name="y" /></p>
+        <input type="button" value="OK" onClick="hitung()" />
+        <p>Nilai Akhir<input type="text" name="hasil" disabled="true" /></p>
+
+
+
+    </form>
+</body>
+
+</html>
